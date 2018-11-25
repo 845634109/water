@@ -74,7 +74,7 @@ public class Element implements Serializable {
     /**
      * 解释
      */
-    @TableField("explain")
+    @TableField("'explain'")
     private String explain;
 
     public Long getId() {

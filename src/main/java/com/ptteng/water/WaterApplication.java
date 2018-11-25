@@ -5,11 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@MapperScan("com.jnshu.sildenafil.system.mapper")
+@MapperScan("com.ptteng.water.system.mapper")
 @SpringBootApplication
 @EnableTransactionManagement
 public class WaterApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(WaterApplication.class, args);
     }

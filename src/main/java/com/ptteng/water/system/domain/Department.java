@@ -98,7 +98,7 @@ public class Department implements Serializable {
     /**
      * 项目情况
      */
-    @TableField("condition")
+    @TableField("'condition'")
     private String condition;
 
     /**
