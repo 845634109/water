@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ptteng.water.system.mapper.DepartmentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ptteng.water.system.domain.Department">
+        <id column="id" property="id" />
+        <result column="create_at" property="createAt" />
+        <result column="create_by" property="createBy" />
+        <result column="update_at" property="updateAt" />
+        <result column="update_by" property="updateBy" />
+        <result column="name" property="name" />
+        <result column="principal" property="principal" />
+        <result column="budget" property="budget" />
+        <result column="parent_id" property="parentId" />
+        <result column="type" property="type" />
+        <result column="status" property="status" />
+        <result column="address" property="address" />
+        <result column="intro" property="intro" />
+        <result column="condition" property="condition" />
+        <result column="grade" property="grade" />
+    </resultMap>
+
+</mapper>
